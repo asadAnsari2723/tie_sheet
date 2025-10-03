@@ -1,0 +1,41 @@
+.bracket-cell {
+  width: 30px;
+  height: 50px;
+  padding: 0;
+  border: none;
+}
+
+.blank-cell {
+  background-color: transparent;
+}
+
+.top-connector img,
+.mid-connector img,
+.bottom-connector img,
+.no-connector img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+/* Example custom styles */
+.custom-blank {
+  background-color: #f0f0f0;
+}
+
+.custom-top {
+  background-color: lightblue;
+}
+
+.custom-mid {
+  background-color: lightgreen;
+}
+
+.custom-bottom {
+  background-color: lightcoral;
+}
+
+.custom-none {
+  opacity: 0.5;
+}

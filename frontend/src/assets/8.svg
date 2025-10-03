@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="600" viewBox="0 0 130 150">
+  <title>8-Player Tournament Bracket</title>
+  <style>
+.bracket-line { stroke: black; stroke-width: 1; }
+.bracket-shape { fill: none; stroke: black; stroke-width: 1; }
+.bracket-dot { fill: black; }
+</style>
+  <g>
+    <g>
+      <g>
+        <g id="round1">
+          <g id="match1">
+            <path class="bracket-shape" d="M 10 20 L 30 20 L 30 5 L 10 5"/>
+            <line class="bracket-line" x1="30" y1="12.5" x2="40" y2="12.5"/>
+            <circle class="bracket-dot" cx="30" cy="12.5" r="1.5"/>
+          </g>
+          <g id="match2">
+            <path class="bracket-shape" d="M 10 60 L 30 60 L 30 45 L 10 45"/>
+            <line class="bracket-line" x1="30" y1="52.5" x2="40" y2="52.5"/>
+            <circle class="bracket-dot" cx="30" cy="52.5" r="1.5"/>
+          </g>
+          <g id="match3">
+            <path class="bracket-shape" d="M 10 100 L 30 100 L 30 85 L 10 85"/>
+            <line class="bracket-line" x1="30" y1="92.5" x2="40" y2="92.5"/>
+            <circle class="bracket-dot" cx="30" cy="92.5" r="1.5"/>
+          </g>
+          <g id="match4">
+            <path class="bracket-shape" d="M 10 140 L 30 140 L 30 125 L 10 125"/>
+            <line class="bracket-line" x1="30" y1="132.5" x2="40" y2="132.5"/>
+            <circle class="bracket-dot" cx="30" cy="132.5" r="1.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g transform="matrix(1, 0, 0, 1, 0, -0.000001)">
+      <line class="bracket-line" x1="40" y1="12.5" x2="40" y2="52.5"/>
+    </g>
+  </g>
+  <g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0.000002)">
+      <line class="bracket-line" x1="40" y1="32.5" x2="50" y2="32.5" style="stroke-width: 1;"/>
+    </g>
+  </g>
+  <g>
+    <circle class="bracket-dot" cx="40" cy="32.5" r="1.5"/>
+  </g>
+  <g>
+    <line class="bracket-line" x1="40" y1="92.5" x2="40" y2="132.5"/>
+  </g>
+  <g>
+    <g>
+      <line class="bracket-line" x1="40" y1="112.5" x2="50" y2="112.5"/>
+    </g>
+  </g>
+  <circle class="bracket-dot" cx="40" cy="112.5" r="1.5"/>
+  <g>
+    <g>
+      <g>
+        <line class="bracket-line" x1="49.946" y1="32.313" x2="49.946" y2="112.313" style="stroke-width: 1;"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <line class="bracket-line" x1="49.946" y1="72.313" x2="59.946" y2="72.313" style="stroke-width: 1;"/>
+    </g>
+  </g>
+  <g>
+    <circle class="bracket-dot" cx="49.946" cy="72.313" r="1.5" style="stroke-width: 1;"/>
+  </g>
+</svg>

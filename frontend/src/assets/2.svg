@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 60">
+<title>Diagram</title>
+<!-- Replaced the rect with a path to remove the left line -->
+<path d="M 13.5 22.3 L 32.7 22.3 L 32.7 8.9 L 13.5 8.9" style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 1.5;"/>
+<!-- Replaced the curved path with a straight, horizontal line -->
+<line x1="32.7" y1="15.6" x2="44" y2="15.6" style="stroke: rgb(0, 0, 0); stroke-width: 1.5;"/>
+<!-- Added the dot at the intersection point -->
+<circle cx="32.7" cy="15.6" r="2" fill="black"/>
+</svg>

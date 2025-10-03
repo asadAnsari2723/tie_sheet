@@ -1,0 +1,6 @@
+jpackage \
+  --input target \
+  --name TieSheet \
+  --main-jar tie-sheet-0.0.1-SNAPSHOT.jar \
+  --main-class org.springframework.boot.loader.JarLauncher \
+  --type app-image

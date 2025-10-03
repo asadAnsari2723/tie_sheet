@@ -1,0 +1,14 @@
+/* Make sure Tailwind CSS is installed and configured in your build process for these directives to work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@media print {
+    
+  .no-print {
+    display: none !important; /* hide buttons */
+  }
+
+  
+}
